@@ -1,0 +1,29 @@
+h1 {
+    font-family: fantasy;
+}
+
+p {
+    font-family: Arial;
+    color: yellow;
+}
+
+/* wrong, use id syntax */
+/* #goal {
+    color: green;
+} */
+
+/* right, uses class syntax */
+.goal {
+    color: green;
+}
+
+
+/* this affects items having the top-goal class */
+.top-goal {
+    color: purple;
+}
+
+/* this affects list items that are descendants of items having the top-goal class */
+.top-goal li {
+    color: pink;
+}
