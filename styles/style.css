@@ -1,0 +1,25 @@
+/* Selectors 
+    H1 tags should have fantasy font
+    Paragraph elements should have cursive font and color
+Classes
+    All elements with class “goal” should be green
+Ids
+    List elements that are children of an element with the id “top-goal” 
+    should be pink   */
+
+h1 {
+    font-family: fantasy;
+}
+
+p {
+    font: italic 1.2em "Fira Sans", serif;
+    color: blue;
+}
+
+.goal {
+    color: green;
+}
+
+#top-goal li {
+    color:pink;
+}
